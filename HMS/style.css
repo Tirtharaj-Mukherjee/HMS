@@ -1,0 +1,115 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+
+    font-family: 'meriweather' , serif;
+
+}
+
+.nav-link{
+    color: rgb(233, 14, 14);
+    font-weight: 500;
+    
+
+}
+.navbar-brand{
+    color: rgb(8, 240, 8);
+    font-weight: 700;
+}
+.main{
+
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/PicsArt_06-09-05-compressed.jpg)no-repeat;
+    background-size: 100% , 100%;
+    width: 100%; 
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.card{
+
+border: none;
+
+}
+.main select{
+    height: 40px;
+    width: 70%;
+    border: none;
+    padding : 0 20px;
+}
+.main span{
+    
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+.main .btn1{
+    background: olivedrab;
+    outline: none;
+    border :none;
+    height: 40px;
+    width: 90%;
+    margin-top: 32px;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: lightseagreen;
+    transition: 0.5s;
+
+}
+.register{
+    background: white;
+}
+.btn2{
+    background: rgb(5, 5, 5);
+    color: rgb(253, 255, 255);
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline :none;
+    position: relative;
+}
+.btn2:hover{
+    background: rgb(3, 245, 172);
+    transition: 0.5s
+    
+}
+
+.feature{
+    background:url(images/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: 1100px 800px;
+}
+.feature h1{
+    font-size: 3rem;
+    font-weight: 700;
+
+
+}
+.btnc{
+    font-weight: 200;
+    height: 45px;
+    width: 150px;
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(250, 245, 245);
+    outline: none;
+    border: none;
+    border-radius: 5px
+                                                                             
+}
+.btnc:hover{
+    background: rgb(3, 245, 172);
+    transition: 0.5s;
+}
+.inner-footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: ivory;
+
+}
